@@ -16,4 +16,8 @@ What do you think about adding a provenance trail on all the files? Could we use
 
 Are you OK with Markdown quirks \[like escaping brackets\]? Do you have an h1 preference?
 
+Do you want to line wrap at 80 characters? Punchcards never die!
+
 File name conventions? (Google juice) What do you think of `firstname_lastname_title_with_dashes.txt` (.text?)
+
+Do you want to keep _all_ html out of the text files? e.g. Should 8th be 8<sup>th</sup>?

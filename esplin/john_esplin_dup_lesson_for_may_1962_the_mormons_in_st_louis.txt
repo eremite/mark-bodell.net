@@ -8,4 +8,4 @@ John Esplin was born 12 December, 1828 at Wardend, County of Perth, Scotland, th
 
 * Typed by Valery Evensen, Dec 1, 1993
 * Manually converted to html by Mark Esplin July 12, 2000
-* Converted to markdown 2010-07-27
+* 27 July, 2010 - Converted to [markdown](http://daringfireball.net/projects/markdown) by Daniel Esplin
