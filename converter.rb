@@ -22,7 +22,8 @@ files.each do |file|
   raise "File #{file} would be overwritten." if outfile == file
   puts "Converting #{file}"
   File.open(outfile, 'w') do |f|
-    content = Maruku.new(File.read(file)).to_html
+    content = File.read(file)
+    content = Maruku.new(content).to_html unless file =~ /.html?$/
     content =~ /<h1[^>]*>(.*)<\/h1>/i
     f << layout.render({
       :title => $1,
