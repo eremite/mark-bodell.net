@@ -10,7 +10,10 @@ LAYOUT = 'layouts/site.html.liquid'
 layout = Liquid::Template.parse(File.read(LAYOUT))
 files = Dir['**/_*.html'] + Dir['**/*.{txt,text,md,markdown,mdown,markdn,mdml}']
 
+files = ARGV unless ARGV.empty?
+
 files.each do |file|
+  raise "File not found: #{file}" unless File.exists?(file)
   outfile = "#{file}"
   if File.basename(file).starts_with?('_')
     outfile.sub!(Regexp.new("#{File.basename(file)}$"), File.basename(file).sub(/^_/, ''))
