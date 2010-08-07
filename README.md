@@ -21,3 +21,12 @@ Do you want to line wrap at 80 characters? Punchcards never die!
 File name conventions? (Google juice) What do you think of `firstname_lastname_title_with_dashes.txt` (.text?)
 
 Do you want to keep _all_ html out of the text files? e.g. Should 8th be 8<sup>th</sup>?
+
+## TODO
+
+* Prettify
+* images?
+* images in the css?
+* Add all the existing content
+* Shoutout to ruby, maruku, markdown and liquid.
+* Add a search box.
