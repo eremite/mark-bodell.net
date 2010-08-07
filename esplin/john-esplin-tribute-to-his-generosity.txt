@@ -13,4 +13,4 @@ Henry C. Esplin
 * * *
 
 * 4 May, 2008 - Typed by Mark Esplin from 1953/1954 Esplin Family Bulletin
-* 6 August, 2010 - Converted to [markdown](http://daringfireball.net/projects/markdown)  by Daniel Esplin
+* 6 August, 2010 - Converted to [markdown](http://daringfireball.net/projects/markdown) by Daniel Esplin
