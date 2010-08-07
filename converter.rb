@@ -23,12 +23,17 @@ files.each do |file|
   puts "Converting #{file}"
   File.open(outfile, 'w') do |f|
     content = File.read(file)
-    content = Maruku.new(content).to_html unless file =~ /.html?$/
+    text_link = nil
+    unless file =~ /.html?$/
+      content = Maruku.new(content).to_html
+      text_link = File.basename(file)
+    end
     content =~ /<h1[^>]*>(.*)<\/h1>/i
     f << layout.render({
       :title => $1,
       :relative_root => '.' * (file.scan('/').size + 1),
       :content => content,
+      :text_link => text_link,
     }.with_indifferent_access)
   end
 end

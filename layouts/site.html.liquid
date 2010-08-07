@@ -17,6 +17,9 @@
 
     <div id='content'>
       <div class="container">
+        {% if text_link %}
+          <div class="text-link"><a href="{{text_link}}">Text version</a></div>
+        {% endif %}
         {{content}}
       </div>
     </div>
