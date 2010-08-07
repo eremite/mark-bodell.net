@@ -7,7 +7,7 @@ require 'active_support/all'
 
 LAYOUT = 'layouts/site.html.liquid'
 
-layout = File.read(LAYOUT)
+layout = Liquid::Template.parse(File.read(LAYOUT))
 files = Dir['**/_*.html'] + Dir['**/*.{txt,text,md,markdown,mdown,markdn,mdml}']
 
 files.each do |file|
@@ -22,6 +22,6 @@ files.each do |file|
     f << layout.render({
       :title => 'My Title',
       :content => Maruku.new(File.read(file)).to_html,
-    })
+    }.with_indifferent_access)
   end
 end
