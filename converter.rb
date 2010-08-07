@@ -26,6 +26,7 @@ files.each do |file|
     content =~ /<h1[^>]*>(.*)<\/h1>/i
     f << layout.render({
       :title => $1,
+      :relative_root => '.' * (file.scan('/').size + 1),
       :content => content,
     }.with_indifferent_access)
   end
