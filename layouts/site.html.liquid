@@ -11,17 +11,27 @@
 
     <div id='header'>
       <div class="container">
+        <div id="login">
+          <a href="http://mark-bodell.net/PhpGedView/index.php">Login</a>
+        </div>
         <h1><a href="{{relative_root}}/index.html">Family History of Mark and Bodell Esplin</a></h1>
       </div>
     </div>
 
     <div id='content'>
       <div class="container">
-        {% if text_link %}
-          <div class="text-link"><a href="{{text_link}}">Text version</a></div>
-        {% endif %}
-        {% if pdf_link %}
-          <div class="pdf-link"><a href="{{pdf_link}}">PDF version</a></div>
+        {% if text_link or pdf_link %}
+          <div id="menu">
+            <ul>
+              <li><a href="{{relative_root}}/index.html">Home</a></li>
+              {% if text_link %}
+                <li><a href="{{text_link}}">Text</a></li>
+              {% endif %}
+              {% if pdf_link %}
+                <li><a href="{{pdf_link}}">PDF</a></li>
+              {% endif %}
+            </ul>
+          </div>
         {% endif %}
         {{content}}
       </div>
