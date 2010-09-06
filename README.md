@@ -47,33 +47,6 @@ advanced features that would only get in the way for this simple project.
 
     ruby converter.rb path/to/file.txt
 
-### Adding a New Document
-
-* Run `git pull` to get the latest code. Resolve any conflicts.
-* Put the markdown compatible text file in the `esplin/` or `barton/` directory.
-* Edit `_index.html` and add a link.
-* Run `ruby converter.rb` to regenerate the site. If there are errors, fix them and run the converter again.
-* Run `git status` to see what files were altered.
-* Use FTP or the web interface to uploaded the changed files to the hosting server.
-* Run `git commit -am "Added new document."` to have git save your changes.
-* Run `git push` to push the changes back to github.
-
-## Questions
-
-* What is the only true and living way to write dates? 12 December, 1828?
-
-* Would you rather keep the text and html files in separate directories?
-
-* What do you think about adding a provenance trail on all the files? Could we use that to justify paragraph breaks?
-
-* Are you OK with Markdown quirks \[like escaping brackets\]? Do you have an h1 preference?
-
-* Do you want to line wrap at 80 characters? Punchcards never die!
-
-* File name conventions? (Google juice) What do you think of `firstname_lastname_title_with_dashes.txt` (.text?)
-
-* Do you want to keep _all_ html out of the text files? e.g. Should 8th be `8<sup>th</sup>`?
-
 ## TODO
 
 * Prettify
@@ -89,4 +62,3 @@ advanced features that would only get in the way for this simple project.
 ## License
 
 Public Domain or MIT license or something...
-
