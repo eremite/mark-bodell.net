@@ -31,17 +31,9 @@ ul {
   line-height: 0;
   height: 0; }
 
-.column {
-  width: 390px;
-  margin: 0 2px;
-  float: left;
-  padding-left: 5px; }
-.column h2 {
-  text-align: center; }
-.person {
-  margin-bottom: 1.5em; }
-#content .person p {
-  margin: 0; }
+.category {
+  margin-bottom: 1em;
+}
 
 .weak {
   color: #777777;

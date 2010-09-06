@@ -63,7 +63,7 @@ unless skip_index
       <div class="category">
         <h2>#{category.titleize}</h2>
         <ul>
-          #{links.sort_by {|a| a[:title].to_s}.map {|a| %Q%<li>#{a[:name]}<br /><a href="#{a[:href]}">#{a[:text]}</a></li>%}}
+          #{links.sort_by {|a| a[:title].to_s}.map {|a| %Q%<li>#{a[:name]} &ndash; <a href="#{a[:href]}">#{a[:text]}</a></li>%}}
         </ul>
       </div>
       HEREDOC
