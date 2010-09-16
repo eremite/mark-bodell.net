@@ -29,13 +29,8 @@ advanced features that would only get in the way for this simple project.
 
 ## Requirements
 
-* packages
-  * ruby
-  * git
-* gems
-  * active_support
-  * maruku
-  * liquid
+* sudo aptitude install git-core ruby ruby1.8-dev rubygems build-essential
+* sudo gem install activesupport maruku liquid
 
 ## Usage
 
