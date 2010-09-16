@@ -85,7 +85,8 @@ ul {
     font-size: 18px;
     margin-bottom: 0.5em; }
   #content p {
-    margin-bottom: 1em; }
+    margin-top: 0.5em;
+    margin-bottom: 0.5em; }
   #content ul {
     padding: 0;
     margin-left: 1em; }
