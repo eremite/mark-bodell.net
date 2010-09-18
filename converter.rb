@@ -56,7 +56,17 @@ unless skip_index
   puts "Creating Index"
   outfile = "index.html"
   File.open(outfile, 'w') do |f|
-    content = ''
+    content = %{
+      <div id="search">
+        <form action="http://www.google.com/search" method="get" onsubmit="javascript: document.getElementById('search-q').value = 'site:http://mark-bodell.net ' + document.getElementById('search-q').value;">
+          <p>
+            <label for="search">Search</label>
+            <input class="text" id="search-q" name="q" type="text" style="width: 200px">
+            <input name="commit" type="submit" value="Search" class="button">
+          </p>
+        </form>
+      </div>
+    }
     toc.each do |category, links|
       next if category.blank?
       content << <<-HEREDOC

@@ -21,7 +21,17 @@
     <div id='content'>
       <div class="container">
         
-              <div class="category">
+        
+      <div id="search">
+        <form action="http://www.google.com/search" method="get" onsubmit="javascript: document.getElementById('search-q').value = 'site:http://mark-bodell.net ' + document.getElementById('search-q').value;">
+          <p>
+            <label for="search">Search</label>
+            <input class="text" id="search-q" name="q" type="text" style="width: 200px">
+            <input name="commit" type="submit" value="Search" class="button">
+          </p>
+        </form>
+      </div>
+          <div class="category">
         <h2>Barton</h2>
         <ul>
           <li>Barton, William Kilshaw &ndash; <a href="barton/barton-william_kilshaw-journal.html">Journal</a></li><li>Perkins, Sarah Elizabeth &ndash; <a href="barton/perkins-sarah_elizabeth-life_sketch.html">Life Sketch</a></li><li>Price, William Morse &ndash; <a href="barton/price-william_morse-history.html">History</a></li><li>Williams &ndash; <a href="barton/williams-a_history_of_daniel_and_ruth.html">A History Of Daniel And Ruth</a></li>
