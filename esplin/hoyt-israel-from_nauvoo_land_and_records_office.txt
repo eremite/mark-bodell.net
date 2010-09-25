@@ -67,4 +67,4 @@
 
 * * *
 
-* 25 Sep 2010 - Converted to [markdown](http://daringfireball.net/projects/markdown) by Daniel Esplin.
+* 25 Sep 2010 - Partially converted to [markdown](http://daringfireball.net/projects/markdown) by Daniel Esplin.
