@@ -1,0 +1,70 @@
+# Israel HOYT \*FILE\*-22977
+
+    19 Jun 2003
+    *************************************************************************
+    Event              Date(s)      Place                         Description
+    *************************************************************************
+    Born               26 Apr 1828  Booneville, Oneida, New York
+    Christened
+    Died                3 Apr 1883  Orderville, Kane, Utah
+    Buried
+    *************************************************************************
+    Baptized           11 Jul 1841
+    Endowed             7 Feb 1846  NAUVO
+    SealPar
+    *************************************************************************
+    \[...\]
+
+## Marriages
+
+    **********************************************************************************
+    MRIN  Spouse                          Marriage Date/Place
+    **********************************************************************************
+    4002  Clarissa Amanda MILLER *-12338  25 Nov 1848  Salt Lake City, Salt Lake, Utah
+    **********************************************************************************
+
+## Notes
+
+    NAUVOO RECORDS:
+      Nauvoo Temple Endowment Register, p 329
+      70's Record, p 195
+      Members, LDS, 1830-1848, by Susan Easton Black, Vol 24, pp 251-254
+      1847 Emigrant List
+
+    HISTORY:
+      Conquerors of the West, Vol 2, pp 1163-1164
+
+    FATHER: James HOYT
+    MOTHER: Beulah SABIN
+
+    SPOUSE: #2 Hannah Elizabeth COOKE
+            #3 Eveline MILLER
+            #4 Bertha Sumner FACKRELL
+
+## NAUVOO TEMPLE ENDOWMENT REGISTER
+
+        Name      Priesthood                   Birth Date              Temple Ordinance Dates
+                    or sex      Date       Town    County  State   Washing and Anointing  Endowment
+    Griffin, Abigail \[...\]
+    Hoopes, Elisha \[...\]
+    Hoopes, Elizabeth \[...\]
+    King, Rufus \[...\]
+    King, Elizabeth Fidelia \[...\]
+    Hoyt, Israel     sev    26 Apr 1828 Booneville Oneida New York  7 Feb 1846            7 Feb 1846
+    Haskell, Sarah \[...\]
+    Robinson, William J. \[...\]
+    Robinson, Rachel \[...\]
+    Morton, Henry \[...\]
+    Jamison, Mary Ann \[...\]
+    Voorhes, Elisha \[...\]
+    Voorhes, Nancy \[...\]
+    Follet, John W. \[...\]
+    Bayles, Susanna \[...\]
+    Porter, John \[...\]
+    Matson, Ann \[...\]
+
+\[...\]
+
+* * *
+
+* 25 Sep 2010 - Converted to [markdown](http://daringfireball.net/projects/markdown) by Daniel Esplin.
