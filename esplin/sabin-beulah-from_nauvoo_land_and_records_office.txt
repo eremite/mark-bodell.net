@@ -1,0 +1,64 @@
+# Beulah SABIN \*FILE\*-19933
+
+    16 Jul 2003
+    *************************************************************************
+    Event              Date(s)      Place                         Description
+    *************************************************************************
+    Born               11 Jun 1786  Richmond, Cheshire, New Hampshire
+    Christened
+    Died               21 Dec 1857  Nephi, Juab, Utah
+    Buried
+    *************************************************************************
+    Baptized                  1845
+    Endowed            25 Dec 1845 NAUVO
+    SealPar
+    *************************************************************************
+    \[...\]
+
+## Marriages
+
+    **********************************************************************************
+    MRIN  Spouse                          Marriage Date/Place
+    **********************************************************************************
+    6205  James HOYT-22978                1807
+    **********************************************************************************
+
+## Notes
+
+    NAUVOO RECORDS:
+      Nauvoo Temple Endowment Register, p 68
+      Members, LDS, 1830-1848, by Susan Easton Black, Vol # 38, pp 81
+      Record of Baptism for the Dead, Nauvoo, by Black and Black, Vol 3, pp 1752-1754
+
+    HISTORY/HISTORIES:
+      Pioneer Women of Faith and Fortitude, p 1430
+
+    FATHER: Isarel SABIN
+    MOTHER: Beulah RICHARDSON (Albee)
+
+## NAUVOO TEMPLE ENDOWMENT REGISTER
+
+        Name      Priesthood                   Birth Date              Temple Ordinance Dates
+                    or sex      Date       Town    County  State   Washing and Anointing  Endowment
+    Farnham, Mary Jane \[...\]
+    Lewis, Lydia \[...\]
+    Hoyt, James     h.p.    25 Nov 1786 Boscowen Hillsburg N. Hampshire  25 Dec 1845 25 Dec 1845
+    Hoyt, Beulah    f       11 Jun 1786 Richmond Cheshire  N. Hampshire  25 Dec 1845 25 Dec 1845 Beulah Sabin in TIB record
+    Owens, Laura \[...\]
+    Nichols, Jesse K. \[...\]
+    Nichols, Caroline \[...\]
+    Harvey, John \[...\]
+    Harvey, Eliza \[...\]
+    Thurston, Thomas J. \[...\]
+    Thurston, Rozette \[...\]
+    Littlefield, Waldo \[...\]
+    Littlefield, Mary \[...\]
+    Muir, William S. \[...\]
+    Muir, Jane \[...\]
+    Clinton, Jeter \[...\]
+
+\[...\]
+
+* * *
+
+* 25 Sep 2010 - Partially converted to [markdown](http://daringfireball.net/projects/markdown) by Daniel Esplin.
