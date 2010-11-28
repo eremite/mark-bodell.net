@@ -384,5 +384,5 @@ continue to be respected and known for good.
 
 * * *
 
-* 7 Sep 2010 - Converted to [markdown](http://daringfireball.net/projects/markdown) by Daniel Esplin
 * Nov 2010 - Typed by Mark Esplin from history provided by Marilyn Broadbent through Elise Tuttle.
+* 28 Nov 2010 - Converted to [markdown](http://daringfireball.net/projects/markdown) by Daniel Esplin
