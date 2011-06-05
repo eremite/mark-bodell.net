@@ -46,13 +46,10 @@ advanced features that would only get in the way for this simple project.
 
 * Prettify
 * images?
-* Add all the existing content
 * Shoutout to ruby, maruku, markdown and liquid.
 * Add a footer.
 * Contact email.
 * Decide on License, CC, copyright stuff.
-* Add a search box.
-* Google Analytics
 
 ## License
 
