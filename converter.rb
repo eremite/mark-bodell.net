@@ -69,11 +69,13 @@ unless skip_index
     }
     toc.each do |category, links|
       next if category.blank?
+      link_list = links.sort_by {|a| a[:name].to_s}.map do |a|
+        %Q%\n#{' ' * 10}<li>#{a[:name]} &ndash; <a href="#{a[:href]}">#{a[:text]}</a></li>%
+      end
       content << <<-HEREDOC
       <div class="category">
         <h2>#{category.titleize}</h2>
-        <ul>
-          #{links.sort_by {|a| a[:name].to_s}.map {|a| %Q%<li>#{a[:name]} &ndash; <a href="#{a[:href]}">#{a[:text]}</a></li>%}}
+        <ul>#{link_list}
         </ul>
       </div>
       HEREDOC
