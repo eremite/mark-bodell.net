@@ -71,7 +71,7 @@ unless skip_index
       next if category.blank?
       link_list = links.sort_by {|a| a[:name].to_s}.map do |a|
         %Q%\n#{' ' * 10}<li>#{a[:name]} &ndash; <a href="#{a[:href]}">#{a[:text]}</a></li>%
-      end
+      end.join
       content << <<-HEREDOC
       <div class="category">
         <h2>#{category.titleize}</h2>
