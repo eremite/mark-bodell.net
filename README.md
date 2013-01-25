@@ -30,17 +30,18 @@ advanced features that would only get in the way for this simple project.
 ## Requirements
 
 * sudo aptitude install git-core ruby ruby1.8-dev rubygems build-essential
-* sudo gem install activesupport maruku liquid
+* sudo gem install bundler
+* bundle
 
 ## Usage
 
 ### Regenerate Entire Site
 
-    ruby converter.rb
+    bundle exec ruby converter.rb
 
 ### Convert One File
 
-    ruby converter.rb path/to/file.txt
+    bundle exec ruby converter.rb path/to/file.txt
 
 ## TODO
 

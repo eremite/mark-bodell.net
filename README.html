@@ -62,18 +62,20 @@
 <ul>
 <li>sudo aptitude install git-core ruby ruby1.8-dev rubygems build-essential</li>
 
-<li>sudo gem install activesupport maruku liquid</li>
+<li>sudo gem install bundler</li>
+
+<li>bundle</li>
 </ul>
 
 <h2 id='usage'>Usage</h2>
 
 <h3 id='regenerate_entire_site'>Regenerate Entire Site</h3>
 
-<pre><code>ruby converter.rb</code></pre>
+<pre><code>bundle exec ruby converter.rb</code></pre>
 
 <h3 id='convert_one_file'>Convert One File</h3>
 
-<pre><code>ruby converter.rb path/to/file.txt</code></pre>
+<pre><code>bundle exec ruby converter.rb path/to/file.txt</code></pre>
 
 <h2 id='todo'>TODO</h2>
 
