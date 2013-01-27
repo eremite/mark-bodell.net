@@ -33,25 +33,10 @@ advanced features that would only get in the way for this simple project.
 * sudo gem install bundler
 * bundle
 
-## Usage
-
-### Regenerate Entire Site
+## Regenerate Entire Site
 
     bundle exec ruby converter.rb
 
-### Convert One File
+## Convert One File
 
     bundle exec ruby converter.rb path/to/file.txt
-
-## TODO
-
-* Prettify
-* images?
-* Shoutout to ruby, maruku, markdown and liquid.
-* Add a footer.
-* Contact email.
-* Decide on License, CC, copyright stuff.
-
-## License
-
-Public Domain or MIT license or something...
