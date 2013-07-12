@@ -46,10 +46,11 @@ of drawings he made for a Physiology class. He was very neat and accurate.
 He married Sarah Elizabeth Perkins, October 2, 1913 in Salt Lake City, Salt
 Lake, Utah. Their children were Vivian George, born and died September 11,
 1914, Thora born December 15, 1915 and died July 28 1999, Oral, born Sept 28
-1917 died ??, Audra, born April 7, 1919 drowned July 27, 1934 at 15 years of
-age, Eloise, born June 7, 1920 and died ??, Afton born October 10, 1923, Evan
-Hewett born July 21, 1925 and died January 16, 1965, Minerva, born and died
-March 27, 1927, and Benjamin Leonard born and died September 10, 1930.
+1917 died January 19, 1991, Audra, born April 7, 1919 drowned July 27, 1934 at
+15 years of age, Eloise, born June 7, 1920 and died April 26, 2003, Afton born
+October 10, 1923, Evan Hewett born July 21, 1925 and died January 16, 1965,
+Minerva, born and died March 27, 1927, and Benjamin Leonard born and died
+September 10, 1930.
 
 In San Juan County George bought land fifteen to twenty miles east of
 Monticello at Lockerby, which included the area that is Eastland today. George
@@ -104,7 +105,7 @@ way her father taught her. LaNell also said that her mother talked of the way
 Grandpa could wring a cloth out very efficiently by twisting his hands before
 he grabbed the cloth. Eloise also recollected that the girls always turned down
 their father's bed for him before he went to bed and that he loved bread and
-milk, which really may have bean the cream.
+milk, which really may have been the cream.
 
 Another granddaughter, Sandy Mahon Christiansen, said that her mother Eloise,
 loved being in the blacksmith shop with her father and that he was very adept
@@ -147,3 +148,4 @@ They say he had a smile on his face.
   cousin Gerard Norton asked if one was available I decided to attempt to put
   the thoughts I have collected together into one story.
 * 10 Oct 2010 - Converted to [markdown](http://daringfireball.net/projects/markdown) by Daniel Esplin.
+* 12 Jul 2013 - Fix some birth/death dates and a typo.
