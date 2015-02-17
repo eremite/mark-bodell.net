@@ -8,7 +8,7 @@ require 'active_support/all'
 LAYOUT = 'layouts/site.html.liquid'
 
 layout = Liquid::Template.parse(File.read(LAYOUT))
-files = Dir['**/*.{txt,text,md,markdown,mdown,markdn,mdml}']
+files = Dir['**/*.{txt,text,md,markdown,mdown,markdn,mdml}'].sort
 skip_index = false
 toc = {}
 
