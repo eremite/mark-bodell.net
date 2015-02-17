@@ -28,7 +28,7 @@ files.each do |file|
   parts = filename.split('.').first.split('-')
   name, title = parts[0..-2].join(', ').titleize, parts.last.titleize
   File.open(outfile, 'w') do |f|
-    content = File.read(file)
+    content = File.read(file).encode!('UTF-8', 'UTF-8', :invalid => :replace)
     links = {}
     unless file =~ /.html?$/
       content = Maruku.new(content).to_html
