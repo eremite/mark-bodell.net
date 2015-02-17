@@ -27,16 +27,22 @@ and in a format that will never become unreadable or obsolete.
 Also, most of the static site generators had a bunch of blog-related or other
 advanced features that would only get in the way for this simple project.
 
-## Requirements
+## Install
 
-* sudo aptitude install git-core ruby ruby1.8-dev rubygems build-essential
-* sudo gem install bundler
-* bundle
+* Install docker and fig.
+
+```sh
+fig up
+```
 
 ## Regenerate Entire Site
 
-    bundle exec ruby converter.rb
+```sh
+fig run --rm web bundle exec ruby converter.rb
+```
 
 ## Convert One File
 
-    bundle exec ruby converter.rb path/to/file.txt
+```sh
+fig run --rm web bundle exec ruby converter.rb $PATH_TO_FILE
+```
