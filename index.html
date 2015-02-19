@@ -4,7 +4,8 @@
   <head>
     <title>Family History of Mark and Bodell Esplin</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <link rel="stylesheet" href="./stylesheets/bootstrap.css" type="text/css" media="screen, projection" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <script type="text/javascript">
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-19951906-1']);
@@ -17,23 +18,27 @@
     </script>
   </head>
 
-  <body style="background-color: #eee">
+  <body>
 
-    <div class="navbar" style="margin-bottom: 0">
-      <div class="navbar-inner">
-        <div class="container" style="width: 940px">
-          <a href="./index.html" class="brand">Family History of Mark and Bodell Esplin</a>
-          <form action="http://www.google.com/search" method="get" onsubmit="javascript: document.getElementById('search-q').value = 'site:http://mark-bodell.net ' + document.getElementById('search-q').value;" class="navbar-search pull-right">
-            <input class="search-query span3" id="search-q" name="q" type="text" placeholder="Search">
-            <button name="commit" type="submit" class="btn-small">Search</button>
-          </form>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="./index.html" class="navbar-brand">Family History of Mark and Bodell Esplin</a>
         </div>
+        <form action="http://www.google.com/search" method="get" onsubmit="javascript: document.getElementById('search-q').value = 'site:http://mark-bodell.net ' + document.getElementById('search-q').value;" class="navbar-form pull-right">
+          <div class="input-group">
+            <input class="form-control" id="search-q" name="q" type="text" placeholder="Search">
+            <span class="input-group-btn">
+              <button name="commit" type="submit" class="btn btn-default btn-small">Submit</button>
+            </span>
+          </div>
+        </form>
       </div>
-    </div>
+    </nav>
 
-    <div id="page" style="width: 980px; margin: 0 auto; background-color: white; border-radius: 0 0 10px 10px;">
-      <div class="container" style="margin: 0 auto">
-        
+    <div class="container">
+      
+      <div class="well well-lg">
               <div>
         <h2>Barton</h2>
         <ul>
@@ -45,14 +50,15 @@
           <li>Barton, George Franklin &ndash; <a href="barton/barton-george_franklin-wizard_of_san_juan.html">Wizard Of San Juan</a></li>
           <li>Barton, Sarah Elizabeth Perkins &ndash; <a href="barton/barton-sarah_elizabeth_perkins-an_experience.html">An Experience</a></li>
           <li>Barton, William Kilshaw &ndash; <a href="barton/barton-william_kilshaw-journal.html">Journal</a></li>
+          <li>Cook, James &ndash; <a href="barton/cook-james-history.html">History</a></li>
           <li>Cooke, Francis &ndash; <a href="barton/cooke-francis-biographical_notes.html">Biographical Notes</a></li>
           <li>Evans, Margaret &ndash; <a href="barton/evans-margaret-history.html">History</a></li>
           <li>Johnson, Ezekiel And Julia &ndash; <a href="barton/johnson-ezekiel_and_julia-brief_sketch.html">Brief Sketch</a></li>
-          <li>Johnson, Joel Hills &ndash; <a href="barton/johnson-joel_hills-the_story_of_high_on_a_mountain_top.html">The Story Of High On A Mountain Top</a></li>
+          <li>Johnson, Joel Hills &ndash; <a href="barton/johnson-joel_hills-history.html">History</a></li>
           <li>Johnson, Joel Hills &ndash; <a href="barton/johnson-joel_hills-incidents.html">Incidents</a></li>
           <li>Johnson, Joel Hills &ndash; <a href="barton/johnson-joel_hills-journal.html">Journal</a></li>
           <li>Johnson, Joel Hills &ndash; <a href="barton/johnson-joel_hills-journal_entries.html">Journal Entries</a></li>
-          <li>Johnson, Joel Hills &ndash; <a href="barton/johnson-joel_hills-history.html">History</a></li>
+          <li>Johnson, Joel Hills &ndash; <a href="barton/johnson-joel_hills-the_story_of_high_on_a_mountain_top.html">The Story Of High On A Mountain Top</a></li>
           <li>Minnerly, Albert &ndash; <a href="barton/minnerly-albert-history.html">History</a></li>
           <li>Minnerly, Louisa &ndash; <a href="barton/minnerly-louisa-history.html">History</a></li>
           <li>Minnerly, Louisa &ndash; <a href="barton/minnerly-louisa-history_by_lucetta.html">History By Lucetta</a></li>
@@ -162,23 +168,21 @@
       </div>
     </div>
 
-    <div class="footer" style="text-align: center; margin: 10px auto">
-      <div class="container">
-        <small class="muted">
-          Website by
-          <a href="http://danielesplin.org">Daniel Esplin</a>
-          |
-          <a href="http://github.com/eremite/mark-bodell.net">Source on Github</a>
-          |
-          Built with
-          <a href="http://www.ruby-lang.org">Ruby</a>,
-          <a href="http://daringfireball.net/projects/markdown">Markdown</a>,
-          <a href="http://liquidmarkup.org">Liquid</a>,
-          and
-          <a href="http://twitter.github.com/bootstrap">Bootstrap</a>
-        </small>
-      </div>
-    </div>
+    <footer class="container text-center">
+      <small class="muted">
+        Website by
+        <a href="http://danielesplin.org">Daniel Esplin</a>
+        |
+        <a href="http://github.com/eremite/mark-bodell.net">Source on Github</a>
+        |
+        Built with
+        <a href="http://www.ruby-lang.org">Ruby</a>,
+        <a href="http://daringfireball.net/projects/markdown">Markdown</a>,
+        <a href="http://liquidmarkup.org">Liquid</a>,
+        and
+        <a href="http://getbootstrap.com/">Bootstrap</a>
+      </small>
+    </footer>
 
   </body>
 
