@@ -63,7 +63,7 @@ unless skip_index
         %Q%\n#{' ' * 10}<li>#{a[:name]} &ndash; <a href="#{a[:href]}">#{a[:text]}</a></li>%
       end.join
       content << <<-HEREDOC
-      <div>
+      <div class="col-lg-6">
         <h2>#{category.titleize}</h2>
         <ul>#{link_list}
         </ul>
@@ -73,7 +73,7 @@ unless skip_index
     f << layout.render({
       :title => "Family History of Mark and Bodell Esplin",
       :relative_root => '.',
-      :content => content,
+      :content => "<div class=\"row\">#{content}</div>",
     }.with_indifferent_access)
   end
 end
