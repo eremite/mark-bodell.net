@@ -1,11 +1,9 @@
 FROM ruby:1.9.3
 
-RUN mkdir -p /data/mark-bodell.net
-COPY Gemfile* /data/mark-bodell.net/
-WORKDIR /data/mark-bodell.net
-RUN bundle config --global jobs 8
-RUN bundle install --system
-
-COPY . /data/mark-bodell.net
+RUN mkdir -p /usr/src/app
+WORKDIR /usr/src/app
+COPY Gemfile* /usr/src/app/
+RUN bundle install --system --jobs 4
+COPY . /usr/src/app
 
 CMD ["ruby", "-run", "-e", "httpd", ".", "-p", "3000"]

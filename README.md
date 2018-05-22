@@ -29,20 +29,20 @@ advanced features that would only get in the way for this simple project.
 
 ## Install
 
-* Install docker and fig.
+* Install docker and docker-compose.
 
 ```sh
-fig up
+docker-compose up
 ```
 
 ## Regenerate Entire Site
 
 ```sh
-fig run --rm web bundle exec ruby converter.rb
+docker-compose run --rm web bundle exec ruby converter.rb
 ```
 
 ## Convert One File
 
 ```sh
-fig run --rm web bundle exec ruby converter.rb $PATH_TO_FILE
+docker-compose run --rm web bundle exec ruby converter.rb $PATH_TO_FILE
 ```
