@@ -9,6 +9,7 @@ LAYOUT = 'layouts/site.html.liquid'
 
 layout = Liquid::Template.parse(File.read(LAYOUT))
 files = Dir['**/*.{txt,text,md,markdown,mdown,markdn,mdml}'].sort
+files -= %w(notes.md)
 skip_index = false
 toc = {}
 
